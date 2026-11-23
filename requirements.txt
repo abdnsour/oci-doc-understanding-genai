@@ -1,0 +1,6 @@
+# OCI SDK for Python
+oci>=2.100.0
+
+# Environment configuration & HTTP utilities
+python-dotenv>=1.0.0
+urllib3>=1.26.0

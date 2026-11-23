@@ -1,0 +1,33 @@
+# Security & Credentials
+.env
+.env.*
+!.env.example
+config
+.oci/
+*.pem
+*.key
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Local documents & generated outputs
+sample_documents/
+extracted_cv_data/
+*.pdf
+raw_output.json
+extracted_text.txt
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
